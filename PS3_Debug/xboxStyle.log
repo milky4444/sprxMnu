@@ -1,0 +1,31 @@
+﻿Build started 15/07/2014 7:38:36 PM.
+     1>Project "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\xboxStyle.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "PS3_Debug\xboxStyle.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         prx.cpp
+         ppu-lv2-gcc.exe -o PS3_Debug\prx.o -c -iquote. -fpch-deps -MD -MV -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\ppu\lib\gcc\ppu-lv2\4.1.1\include" -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -D__GCC__ -DLIBNAME=cellPrx_xboxStyle -DSTUBNAME=cellPrx_xboxStyle_stub -g -Wall -O0 -fno-exceptions -fno-rtti "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\prx.cpp"
+         In file included from c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\prx.cpp:1:
+     1>c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\stdafx.h(10): warning : ignoring #pragma hdrstop
+         stdafx.cpp
+         ppu-lv2-gcc.exe -o PS3_Debug\stdafx.o -c -iquote. -fpch-deps -MD -MV -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\ppu\lib\gcc\ppu-lv2\4.1.1\include" -D_DEBUG -D__CELL_ASSERT__ -D__PS3__ -D__GCC__ -DLIBNAME=cellPrx_xboxStyle -DSTUBNAME=cellPrx_xboxStyle_stub -g -Wall -O0 -fno-exceptions -fno-rtti "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\stdafx.cpp"
+         In file included from c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\stdafx.cpp:4:
+     1>c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\stdafx.h(10): warning : ignoring #pragma hdrstop
+       Link:
+         C:\usr\local\cell\host-win32\ppu\bin\ppu-lv2-gcc.exe -o "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Debug\xboxStyle.prx" -mprx -zgenprx -zgenstub -fno-exceptions -fno-rtti -Wl,--start-group PS3_Debug\prx.o PS3_Debug\stdafx.o "C:\Program Files (x86)\SN Systems\PS3\ppu\lib\sn\libsn.a" C:/usr/local/cell\target\ppu\lib\libm.a C:/usr/local/cell\target\ppu\lib\libio_stub.a C:/usr/local/cell\target\ppu\lib\liblv2_stub.a -Wl,--end-group
+         xboxStyle.vcxproj -> c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Debug\xboxStyle.prx
+         Moving Stub Library cellPrx_xboxStyle_stub.a -> c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Debug\
+         Moving file from "cellPrx_xboxStyle_stub.a" to "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Debug\cellPrx_xboxStyle_stub.a".
+         Deleting file "PS3_Debug\ppu-lv2-gcc-ppu-lv2-prx-libgen.write.1.tlog".
+       PostBuildEvent:
+         Description: Fake Signing PRX "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Debug\xboxStyle.sprx"
+         C:/usr/local/cell\host-win32\bin\make_fself "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Debug\xboxStyle.prx" "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Debug\xboxStyle.sprx"
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "PS3_Debug\xboxStyle.unsuccessfulbuild".
+         Touching "PS3_Debug\xboxStyle.lastbuildstate".
+     1>Done Building Project "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\xboxStyle.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.61

@@ -1,0 +1,26 @@
+﻿Build started 15/07/2014 7:39:13 PM.
+     1>Project "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\xboxStyle.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Release\".
+       InitializeBuildStatus:
+         Creating "PS3_Release\xboxStyle.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         stdafx.cpp
+         ps3ppusnc.exe -DNDEBUG -D__PS3__ -DLIBNAME=cellPrx_xboxStyle -DSTUBNAME=cellPrx_xboxStyle_stub -o PS3_Release\stdafx.o -c -Xmserrors -Xdepmode=1 -MD -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -O2 -Xc-=rtti --create_pch="PS3_Release\xboxStyle.pch" "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\stdafx.cpp"
+         "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\stdafx.cpp": creating precompiled header file "PS3_Release\xboxStyle.pch"
+         prx.cpp
+         ps3ppusnc.exe -DNDEBUG -D__PS3__ -DLIBNAME=cellPrx_xboxStyle -DSTUBNAME=cellPrx_xboxStyle_stub -o PS3_Release\prx.o -c -Xmserrors -Xdepmode=1 -MD -I. -IC:/usr/local/cell\target\ppu\include -IC:/usr/local/cell\target\common\include -I"C:/usr/local/cell\host-win32\sn\ppu\include" -O2 -Xc-=rtti --use_pch="PS3_Release\xboxStyle.pch" "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\prx.cpp"
+       Link:
+         C:\usr\local\cell\host-win32\sn\bin\ps3ppuld.exe -oformat=fsprx -o "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Release\xboxStyle.sprx" -L"C:/usr/local/cell\host-win32\lib\prx\ldscripts" --start-group PS3_Release\prx.o PS3_Release\stdafx.o libsn.a libm.a libio_stub.a libfs_stub.a --end-group
+         xboxStyle.vcxproj -> c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Release\xboxStyle.sprx
+         Moving Stub Library cellPrx_xboxStyle_stub.a -> c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Release\
+         Moving file from "cellPrx_xboxStyle_stub.a" to "c:\users\jan\documents\visual studio 2010\Projects\xboxStyle\PS3_Release\cellPrx_xboxStyle_stub.a".
+         Deleting file "PS3_Release\ps3ppuld-ppu-lv2-prx-libgen.write.1.tlog".
+       FinalizeBuildStatus:
+         Deleting file "PS3_Release\xboxStyle.unsuccessfulbuild".
+         Touching "PS3_Release\xboxStyle.lastbuildstate".
+     1>Done Building Project "c:\Users\Jan\documents\visual studio 2010\Projects\xboxStyle\xboxStyle\xboxStyle.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.95
